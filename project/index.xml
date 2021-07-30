@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects Home | Prof. Jose L. Aznarte</title>
+    <link>https://jlaznarte.github.io/project/</link>
+      <atom:link href="https://jlaznarte.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects Home</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021</copyright><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://jlaznarte.github.io/images/icon_hu6351ee64df48d2892d6749f985b342fb_222017_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects Home</title>
+      <link>https://jlaznarte.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://jlaznarte.github.io/project/covid-19/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0200</pubDate>
+      <guid>https://jlaznarte.github.io/project/covid-19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
