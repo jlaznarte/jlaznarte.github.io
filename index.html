@@ -208,44 +208,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169798863-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-169798863-1', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
 
@@ -276,6 +238,9 @@
   
   
   <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@jlaznarte">
+  <meta property="twitter:creator" content="@jlaznarte">
   
   <meta property="og:site_name" content="Prof. Jose L. Aznarte">
   <meta property="og:url" content="https://jlaznarte.github.io/">
@@ -1023,7 +988,7 @@
   
   <div class="article-metadata">
     <span>
-      2021-03-24 4:00 PM &mdash; 5:00 PM
+      03-24-2021 16:00 &mdash; 17:00
     </span>
     
     <span class="middot-divider"></span>
@@ -1102,7 +1067,7 @@
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:qyzhao@statslab.cam.ac.uk">qyzhao@statslab.cam.ac.uk</a></span>
+        <span id="person-email"><a href="mailto:jlaznarte@dia.uned.es">jlaznarte@dia.uned.es</a></span>
       </li>
       
 
@@ -1113,14 +1078,14 @@
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">Centre for Mathematical Sciences, Wilberforce Road, Cambridge, CB3 0WB</span>
+          <span id="person-address">calle Juan del Rosal, 16, Madrid, 28040</span>
         </li>
       
 
       
       <li>
         <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-        <span>Pavillion D &ndash; Room D1.01</span>
+        <span>Despacho 3.14</span>
       </li>
       
 
@@ -1136,9 +1101,9 @@
     
     <div class="d-none">
       <input id="map-provider" value="2">
-      <input id="map-lat" value="52.210312">
-      <input id="map-lng" value="0.102033">
-      <input id="map-dir" value="Centre for Mathematical Sciences, Wilberforce Road, Cambridge, CB3 0WB">
+      <input id="map-lat" value="40.4531597">
+      <input id="map-lng" value="-3.7380099">
+      <input id="map-dir" value="calle Juan del Rosal, 16, Madrid, 28040">
       <input id="map-zoom" value="15">
       <input id="map-api-key" value="">
     </div>
@@ -1252,8 +1217,6 @@
     
 
     
-    
-    <script id="dsq-count-scr" src="https://qz280.disqus.com/count.js" async></script>
     
 
     
